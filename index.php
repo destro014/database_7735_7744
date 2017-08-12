@@ -12,6 +12,7 @@
 	<div id="row" >
 		<div class="image-small">
 			<img src="logo.png" >
+		</div>
 			<form action="#" method="">
 				<ul>
 					<li>
@@ -27,7 +28,6 @@
 					</li>
 				</ul>
 			</form>
-		</div>
 	</div>
 </div>
 </body>
