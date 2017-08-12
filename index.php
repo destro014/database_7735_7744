@@ -4,8 +4,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="shortcut icon" href="logo.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 </head>
 <body>
 <div class ="container">
