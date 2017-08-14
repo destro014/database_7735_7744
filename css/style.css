@@ -1,5 +1,48 @@
+/*
+Red color: #830303
+blue color: #3fe0d0
+*/
+
+*{
+	margin:0px;
+	padding:0px;
+}
 body{
 	background-color: #eee;
+}
+a{
+	text-decoration: none;
+	color:#830303;
+}
+#row{
+	background-color:#ffffff;
+	height:100px;
+	border-radius: 20px;
+}
+.headergrid{
+	display:grid;
+	grid-template-columns:1fr 37%;
+}
+.loginfromgrid{
+	display: grid;
+	grid-template-columns:1fr 1fr ;
+	float:right;
+}
+.belowloginformgrid{
+	display:grid;
+	grid-template-columns:41% 50% ;
+	padding-left:-10px;
+}
+.belowheadergrid{
+	display:grid;
+	grid-template-columns:60% 1fr;
+	padding-top: 80px;
+}
+.bloodtypegrid{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	padding-top: 20px;
+	padding-left:20px;
 }
 .image-small img{
 	height:100px;
@@ -9,41 +52,40 @@ body{
 .image-bloodtype img{
 	height:100px;
 	width:100px;
-	padding:20px;
-	padding-bottom: 30px;
-	float:left;
+	padding-bottom: 80px;
 }
-#row{
-	background-color:#ffffff;
-	width:100%;
-	height:100px;
-	border-bottom: 70px;
-	border-radius:10px;
-	border-color:#ffffff;
+h1.registertitle{
+	text-align: center;
+	color:#830303;
+	font-weight: bold;
+	font-size: 50px;
+	padding-bottom: 40px;
 }
-.left-padding{
-	padding-right: 40px;
+h1.bloodavailabletitle {
+	text-align: center;
+	color:#830303;
+	font-weight: bold;
+	font-size: 50px;
+	padding-bottom: 20px;
 }
-.botton {
-	padding-right:20px;
-}
-form{
+form.login-form {
 	display:block;
 	position:relative;
 	margin: 30px auto;
-	/*padding-right:40px;*/
+	padding-right:40px;
 	float:right;
 }
 label{
 	display: inline-block;
 	position: relative;
 	top:0px;
-	left:-180px;
+	width:1%;
+	left:-184px;
 	color:#999;
 	font-family:'Helvetica', sans-serif;
 	font-size:16px;
 	z-index:1;
-	transition: all 0.3s ease;
+	transition: all 0.2s ease-in;
 }
 input{
 	display:inline-block;
@@ -52,28 +94,37 @@ input{
 	border:none;
 	border-bottom: 1px solid #aaa;
 	font-family: 'Helvetica', sans-serif;
-	font-weight: bold;
+	font-weight: lighter;
 	font-size: 16px;
 	z-index:2;
 }
 input:focus , input:valid{
 	outline:none;
 	border-bottom: 1px solid #830303;
+	position: auto;
 
 }
 input:focus + label,input:valid + label{
-	top:-20px;
+	top:-17px;
 	font-size:11px;
 	color:#830303; 
-} 
-.bloodavailabletitle{
-	
-	color:#830303;
-	padding-left:150px;
 }
-.divider{
-	padding-top:150px;
+button.login-button{
+	padding:8px 20px;
+	text-align:center;
+	background:transparent;
+	border:1px solid #830303;
+	border-radius: 20px;
+	padding-left: -10px;
 }
-.registertext{
-	float:right;
+button.login-button:hover{
+	background-color: #830303;
+	color:white;
+	border-radius:30px;
+}
+button.login-button:focus{
+	outline:none;
+		background-color: #830303;
+	color:white;
+	border-radius:30px;	
 }
