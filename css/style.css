@@ -2,7 +2,6 @@
 Red color: #830303
 blue color: #3fe0d0
 */
-
 *{
 	margin:0px;
 	padding:0px;
@@ -11,79 +10,43 @@ body{
 	background-color: #eee;
 }
 a{
-	text-decoration: none;
+	text-decoration: none !important;
+	color:#3fe0d0;
+}
+a:hover{
 	color:#830303;
 }
-#row{
-	background-color:#ffffff;
-	height:100px;
-	border-radius: 20px;
-}
-.headergrid{
-	display:grid;
-	grid-template-columns:1fr 37%;
-}
-.loginfromgrid{
-	display: grid;
-	grid-template-columns:1fr 1fr ;
-	float:right;
-}
-.belowloginformgrid{
-	display:grid;
-	grid-template-columns:41% 50% ;
-	padding-left:-10px;
-}
-.belowheadergrid{
-	display:grid;
-	grid-template-columns:60% 1fr;
-	padding-top: 80px;
-}
-.bloodtypegrid{
-	display:grid;
-	grid-template-columns:1fr 1fr 1fr 1fr;
-	padding-top: 20px;
-	padding-left:20px;
-}
-.image-small img{
-	height:100px;
-	width:100px;
-	float:left;
-}
-.image-bloodtype img{
-	height:100px;
-	width:100px;
-	padding-bottom: 80px;
-}
-h1.registertitle{
-	text-align: center;
+a:active{
 	color:#830303;
-	font-weight: bold;
-	font-size: 50px;
-	padding-bottom: 40px;
 }
-h1.bloodavailabletitle {
-	text-align: center;
-	color:#830303;
-	font-weight: bold;
-	font-size: 50px;
-	padding-bottom: 20px;
+.image-logo{
+	height:70px;
+	width:70px;
+	margin-top:-5px;
+}
+.navbar-landing{
+	height:100px;
+}
+a.forgetpassword{
+	padding-left: 77px;
 }
 form.login-form {
 	display:block;
 	position:relative;
-	margin: 30px auto;
-	padding-right:40px;
+	margin-top: 15px;
 	float:right;
 }
+
 label{
 	display: inline-block;
 	position: relative;
-	top:0px;
-	width:1%;
+	width:5px;
+	top:0px; 
 	left:-184px;
 	color:#999;
 	font-family:'Helvetica', sans-serif;
 	font-size:16px;
+	font-weight: lighter;
 	z-index:1;
 	transition: all 0.2s ease-in;
 }
@@ -97,11 +60,12 @@ input{
 	font-weight: lighter;
 	font-size: 16px;
 	z-index:2;
+
 }
 input:focus , input:valid{
 	outline:none;
 	border-bottom: 1px solid #830303;
-	position: auto;
+
 
 }
 input:focus + label,input:valid + label{
@@ -109,22 +73,73 @@ input:focus + label,input:valid + label{
 	font-size:11px;
 	color:#830303; 
 }
-button.login-button{
+button{
 	padding:8px 20px;
 	text-align:center;
+	color:black;
 	background:transparent;
 	border:1px solid #830303;
 	border-radius: 20px;
-	padding-left: -10px;
 }
-button.login-button:hover{
+button:hover{
 	background-color: #830303;
 	color:white;
 	border-radius:30px;
 }
-button.login-button:focus{
+button:focus{
 	outline:none;
-		background-color: #830303;
+	background-color: #830303;
 	color:white;
 	border-radius:30px;	
+}
+.buttoncenter{
+	text-align: center;
+	color:black;
+}
+/*.buttoncenter button{
+	color:black;
+}*/
+.image-bloodtype img{
+	height:100px;
+	width:100px;
+	padding-bottom: -20px;
+	padding-left:-10px;
+	margin-bottom: 80px;
+
+}
+.col-md-7{
+	padding-left:20px;
+}
+.divider{
+	margin-top:30px;
+}
+.registertitle{
+	text-align: center;
+}
+.registerform{
+	padding-left: 20px;
+	background-color:#fff;
+	border-radius: 25px;
+	margin-top: 20px; 
+}
+.registerform input{
+	margin-left: 45px;
+}
+.registerform{
+	padding:10px;
+}
+h1.bloodavailabletitle{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: "Helvetica" sans-serif;
+}
+h1.registernowtitle{
+	text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	font-family: "Helvetica" sans-serif;
+}
+.bloodtype{
+	padding-top:30px;
 }
