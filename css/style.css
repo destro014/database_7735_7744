@@ -35,6 +35,11 @@ form.login-form {
 	position:relative;
 	margin-top: 15px;
 	float:right;
+	margin-right: 10px;
+}
+
+.login-form input{
+	margin-right: 10px;
 }
 
 label{
@@ -60,6 +65,7 @@ input{
 	font-weight: lighter;
 	font-size: 16px;
 	z-index:2;
+	margin-bottom: 20px;
 
 }
 input:focus , input:valid{
@@ -124,6 +130,7 @@ button:focus{
 }
 .registerform input{
 	margin-left: 45px;
+	margin-right: 10px;
 }
 .registerform{
 	padding:10px;
@@ -142,4 +149,12 @@ h1.registernowtitle{
 }
 .bloodtype{
 	padding-top:30px;
+}
+
+.login-form input{
+	margin-right: 10px;
+}
+
+.visible{
+  opacity:1;
 }
