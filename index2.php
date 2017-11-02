@@ -41,16 +41,15 @@
       <div class="loginform">
     	<form action="#" method="post" class="login-form">
 				<li>
-				<input type="text" name="username" required  autocomplete="off">
-				<label for="username">Username</label>
-				<input type="password" name="password" required autocomplete="off" >
-				<label for="password">Password</label>
-				<button class="login-button" type="submit" value="submit">Login</button>
+					<input type="text" name="username" required  autocomplete="off">
+					<label for="username">Username</label>
+					<input type="password" name="password" required autocomplete="off" >
+					<label for="password">Password</label>
+					<button class="login-button" type="submit" value="submit">Login</button>
 				</li>
 				<li>
-				<input type="checkbox" name="remeberme"> Remember me
-
-				<a href="#" class="forgetpassword">Forgot password?</a>
+					<input type="checkbox" name="remeberme"> Remember me
+					<a href="#" class="forgetpassword">Forgot password?</a>
 
 				</li>
 		</form>
@@ -101,7 +100,7 @@
 				<label for="firstname">Firstname</label>
 				<input type="text" name="lastname" required autocomplete="off">
 				<label for="lastname">Lastname</label>
-				<br><br>
+				
 				<input type="email" name="email" required autocomplete="off">
 				<label for="email">Email</label><br>
 				<br>
@@ -113,7 +112,7 @@
 
     <?php
 		//create connection
-		$conn = new mysqli('localhost','root','greenland','blood');
+		$conn = new mysqli($servername,$username,$password,$database);
 		//check connection
 		if($conn->connect_error){
 			die("Connection Failed:".$conn->connect_error);
