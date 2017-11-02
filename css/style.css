@@ -47,7 +47,7 @@ label{
 	position: relative;
 	width:5px;
 	top:0px; 
-	left:-184px;
+	left:-193px;
 	color:#999;
 	font-family:'Helvetica', sans-serif;
 	font-size:16px;
@@ -112,6 +112,14 @@ button:focus{
 	padding-left:-10px;
 	margin-bottom: 80px;
 
+}
+.image-bloodtype img:hover{
+	height:120px;
+	width:120px;
+	padding-bottom: 0;
+	padding-left: 0;
+	margin-bottom: 0;
+	overflow: none;
 }
 .col-md-7{
 	padding-left:20px;
