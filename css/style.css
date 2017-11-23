@@ -68,6 +68,9 @@ input{
 	margin-bottom: 20px;
 
 }
+input .email{
+	width: 100%
+}
 input:focus , input:valid{
 	outline:none;
 	border-bottom: 1px solid #830303;
@@ -113,14 +116,7 @@ button:focus{
 	margin-bottom: 80px;
 
 }
-.image-bloodtype img:hover{
-	height:120px;
-	width:120px;
-	padding-bottom: 0;
-	padding-left: 0;
-	margin-bottom: 0;
-	overflow: none;
-}
+
 .col-md-7{
 	padding-left:20px;
 }
@@ -130,15 +126,23 @@ button:focus{
 .registertitle{
 	text-align: center;
 }
-.registerform{
-	padding-left: 20px;
+.registerform1, .registerform2{
+	padding-left: 10px;
+	padding-bottom: 10px;
 	background-color:#fff;
 	border-radius: 25px;
 	margin-top: 20px; 
+	padding-top: 10px;
 }
 .registerform input{
-	margin-left: 45px;
+	margin-left: 90px;
 	margin-right: 10px;
+	width:63%;	
+}
+
+.registerform label{
+	left:-335px;
+	
 }
 .registerform{
 	padding:10px;
@@ -153,6 +157,12 @@ h1.registernowtitle{
 	text-align: center;
 	font-weight: bold;
 	font-size: 50px;
+	font-family: "Helvetica" sans-serif;
+}
+h2.registernowtitle{
+	text-align: center;
+	font-weight: lighter;
+	font-size: 30px;
 	font-family: "Helvetica" sans-serif;
 }
 .bloodtype{
