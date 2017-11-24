@@ -67,29 +67,38 @@ session_start();
 		<h1 class="bloodavailabletitle">Available blood for you.</h1>
 		<div class="image-bloodtype col-md-3">
 			<img src="img/bloodtype/A-.png" alt="A-">
+			<div class="bloodnumber"><h3 class="bloodcount">10 pints</h3></div>
 		</div>
 		<div class="image-bloodtype col-md-3">
 			<img src="img/bloodtype/A+.png" alt="A+">
+			<h3 class="bloodcount">10 pints</h3>
 		</div>
 		<div class="image-bloodtype col-md-3">
 			<img src="img/bloodtype/B-.png" alt="B-">
+			<h3 class="bloodcount">10 pints</h3>
 		</div>
 		<div class="image-bloodtype col-md-3">
 			<img src="img/bloodtype/B+.png" alt="B+">
+			<h3 class="bloodcount">10 pints</h3>
 		</div>	
-		<div class="image-bloodtype col-md-3">
+		<div class="image-bloodtype secondrow col-md-3">
 			<img src="img/bloodtype/AB-.png" alt="AB-">
+			<h3 class="bloodcount">10 pints</h3>
 		</div>
-		<div class="image-bloodtype col-md-3">
+		<div class="image-bloodtype secondrow col-md-3">
 			<img src="img/bloodtype/AB+.png" alt="AB+">
+			<h3 class="bloodcount">10 pints</h3>
 		</div>
-		<div class="image-bloodtype col-md-3">
+		<div class="image-bloodtype secondrow col-md-3">
 			<img src="img/bloodtype/O-.png" alt="O-">
+			<h3 class="bloodcount">10 pints</h3>
 		</div>
-		<div class="image-bloodtype col-md-3">
+		<div class="image-bloodtype secondrow col-md-3">
 			<img src="img/bloodtype/O+.png" alt="O+">
+			<h3 class="bloodcount">10 pints</h3>
 		</div>
 	</div>	
+	<div class="divider"> </div>
 	<div class="buttoncenter">
 	<a href="details.php"><button class="details">Details</button></a>
 	</div>						
