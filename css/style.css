@@ -113,7 +113,24 @@ button:focus{
 	width:100px;
 	padding-bottom: -20px;
 	padding-left:-10px;
-	margin-bottom: 80px;
+	display: block;
+	margin:0 auto;
+	margin-bottom: 10px;
+
+}
+.secondrow{
+	margin-top: 40px;
+}
+h3.bloodcount{
+	text-align:center;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "Helvetica" sans-serif;
+	/*margin-bottom: 10px;*/
+}
+.bloodnumber{
+	paddin-bottom: 50px;	
+}
 
 }
 
